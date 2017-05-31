@@ -20,12 +20,18 @@ Run casperjs tests
 
 ## So far:
 05/30/2017
-- Install CasperJS locally
+- Install CasperJS globally using brew usr/local/bin/casperjs
+- Updated phantomjs executable path to meetin casperjs needs user/local/bin/phanotmjs
 - built example tests for running functional browser tests
   - get page header (sample.js)
   - run simple hello test (sample-test.js)
   - google link scraper (googlelinks.js)
-
+  - well commented example case (example01.js)
+  - another example case with click, nav, key entry (example02.js)
+- built dtg cases for initial test coverage
+  - nav to homepage (dtg01.js)
+  - landing navigation (dtg02.js)
+  - key entry working on this now  (dtg03.js)
 Note: Examples found http://casperjs.org/
 - Installed phantomjs locally
 - built example tests for running a headless browser
@@ -37,6 +43,6 @@ Note: Examples found http://casperjs.org/
 Note: Examples found http://phantomjs.org/quick-start.html
 
 # Next actions
-Install CasperJS locally and see how casper is incorporated to phantomjs (proceed to folder).
+Review Slimerjs and see why we used slimerjs with casper js. Assumption is to display the running browser..
 
  
