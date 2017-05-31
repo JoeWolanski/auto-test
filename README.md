@@ -24,9 +24,14 @@ Run casperjs tests
 ```casperjs test [test-file]```
 
 ## Next actions
-Review Slimerjs and see why we used slimerjs with casper js. Assumption is to display the running browser..
+Continue with doc review of ci and test framework estabnlished by peter. Configure virtual env server for test coverage. 
 
 ## So far:
+**05/31/2017**
+- Review documentation for ci and existing test framework
+- Built example test
+  - fill form for genome request  (dtg04.js)
+- Review of venv vs. OS for package installation
 **05/30/2017**
 - Install CasperJS globally using brew usr/local/bin/casperjs
 - Updated phantomjs executable path to meetin casperjs needs user/local/bin/phanotmjs
